@@ -21,6 +21,8 @@ guessButton.addEventListener('click', () => {
   // Make a random 'computer guess'
   const computerGuess = Math.floor(Math.random() * 10);
 
+  
+
   // Display the computer guess and the target
   computerGuessDisplay.innerText = computerGuess;
   targetNumberDisplay.innerText = target;
